@@ -1,10 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
 
-import wordSlice from "./slices/wordSlice";
+import historySlice from "./slices/historySlice";
 
 const store = configureStore({
   reducer: {
-    word: wordSlice,
+    history: historySlice,
   },
 });
 

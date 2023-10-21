@@ -1,7 +1,7 @@
 import { RouteObject, createBrowserRouter } from "react-router-dom";
 import AppFrame from "./AppFrame";
 import HomePage from "../pages/home/HomePage";
-import WordPage from "../pages/word/WordPage";
+import QueryPage from "../pages/query/QueryPage";
 
 const routes: RouteObject[] = [
   {
@@ -9,7 +9,7 @@ const routes: RouteObject[] = [
     element: <AppFrame />,
     children: [
       { index: true, element: <HomePage /> },
-      { path: "q/:q", element: <WordPage /> },
+      { path: "q/:q", element: <QueryPage /> },
     ],
   },
 ];
