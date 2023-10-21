@@ -9,7 +9,7 @@ const routes: RouteObject[] = [
     element: <AppFrame />,
     children: [
       { index: true, element: <HomePage /> },
-      { path: "word/:q", element: <WordPage /> },
+      { path: "q/:q", element: <WordPage /> },
     ],
   },
 ];

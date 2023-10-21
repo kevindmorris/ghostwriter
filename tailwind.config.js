@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        ghost: ["Righteous", "sans-serif"],
+        sans: ["Urbanist", "sans-serif"],
       },
     },
   },
